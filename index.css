@@ -20,7 +20,7 @@
     font-family: "Inter", sans-serif;
     color: var(--headerColor);
     padding: 0px 20px;
-    background-color: #f7fffa;
+    background-color: #f9fffb;
   }
   
   /* for all icons */
@@ -169,14 +169,24 @@
     margin-top: 30px;
     display: block;
   }
+  @media (max-width: 800px) {
+    .experience-section .grid3 {
+      grid-template-columns: 1fr 1fr;
+    }
+    @media (max-width: 550px) {
+      .experience-section .grid3 {
+        grid-template-columns: 1fr;
+      }
+    }
+  }
   
   /* portfolio section */
   .portfolio-section p {
     font-size: 14px;
   }
   .portfolio-section .portfolio-image {
-    height: 250px;
-    width: 100%;
+    height: auto;
+    max-width: 100%;
   }
   @media (max-width: 800px) {
     .portfolio-section .grid3 {
