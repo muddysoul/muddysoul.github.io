@@ -24,7 +24,7 @@
   }
 
   .small {
-    font-size: smaller;
+    font-size: 12px;
   }
   
   /* for all icons */
@@ -32,6 +32,28 @@
     width: 24px;
     height: 24px;
     margin: 0px 3px;
+  }
+
+  /* sprites */
+  .bg-doc_hover {
+    width: 50px; height: 50px;
+    background: url('css_sprites.png') -0 -0;
+  }
+  .bg-doc {
+    width: 50px; height: 50px;
+    background: url('css_sprites.png') -50px -0;
+  }
+  .bg-email_hover {
+    width: 30px; height: 30px;
+    background: url('css_sprites.png') -50px -50px;
+  }
+  .bg-email {
+    width: 30px; height: 30px;
+    background: url('css_sprites.png') -100px -0;
+  }
+  .bg-ruler {
+    width: 50px; height: 50px;
+    background: url('css_sprites.png') -0 -50px;
   }
   
   /* to apply colors */
@@ -169,7 +191,17 @@
   }
   
   /* experience section */
-  .experience-section .resume {
+  .resume {
+    margin-top: 30px;
+    justify-content: start;
+  }
+  .resume:hover {
+    color: #14c752;
+  }
+  .resume:hover img {
+
+  }
+  .experience-section {
     margin-top: 30px;
     display: block;
   }
