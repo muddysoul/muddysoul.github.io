@@ -186,6 +186,7 @@
   }
   .portfolio-section .portfolio-image {
     height: auto;
+    max-height: 250px;
     max-width: 100%;
   }
   @media (max-width: 800px) {
