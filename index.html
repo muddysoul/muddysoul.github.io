@@ -1,9 +1,134 @@
-<html>
- 
-<body>
-  <h1>Marisol Beck</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
- 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="How To Build Build Your Professional Portfolio Website In 2 Hours Using HTML & CSS."
+    />
+    <meta
+      name="keywords"
+      content="Lucius Emmanuel, Lucius Emmanuel, Emmaccen, Portfolio website, lucius emmanuel's blog, 
+      free portfolio website, Build Your Professional Portfolio Website In 2 Hours Using HTML & CSS"
+    />
+    <meta name="author" content="Lucius Emmanuel" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js"></script>
+    <title>Emmanuel Lucius' Blog Portfolio Tutorial</title>
+  </head>
+  <body>
+    <nav class='padChild topHeader'>
+      <div class='flex-space-btw'>
+        <a class="centered logo">Lucius<img src="images/icon.svg" class="icon"></img></a>
+        <a href='mailto:lucius.emmanuel.e@gmail.com' class='centered'>lucius.emmanuel.e@gmail.com <img src='images/linkIcon.svg' class='icon'></img></a>
+      </div>
+    </nav>
+    <div class='container'>
+      <section class='grid2 aboutSection'>
+        <div class='centered'>
+          <div>
+            <h2>Hi, I'm Emmanuel Lucius</h2>
+            <p class='paragraph'>I am a professional Software Engineer and designer with <script>document.write(new Date().getFullYear() - 2013)</script>+ years of experience building small to large scale web applications
+              using modern technologies for both front and back-facing (database driven) applications. Currently making lives better at 
+              <a href="#" class="accentColor bold">Microsoft
+               <img src="images/linkIcon.svg" class="icon"></img>
+             </a>
+           </p>
+          </div>
+        </div>
+        <div class='aboutImg backgroundFix' style="background-image: url(images/aboutImg.png)"></div>
+      </section>
+    </div>
+    <div class='container experience-section'>
+      <section >
+        <h2>Experience</h2>
+        <div class='flex-wrap'>
+          <div>
+            <a href="#" class="accentColor bold">Microsoft
+              <img src="images/linkIcon.svg" class="icon"></img>
+            </a>
+            <p>Frontend Engineer (WEB3 || Metaverse)</p>
+            <p>2020 - present</p>
+          </div>
+          <div>
+            <a href="#" class="accentColor bold">Google
+              <img src="images/linkIcon.svg" class="icon"></img>
+            </a>
+            <p>Backend Engineer (C# || .NET Core)</p>
+            <p>2017 - 2020</p>
+          </div>
+          <div>
+            <a href="#" class="accentColor bold">Trello
+              <img src="images/linkIcon.svg" class="icon"></img>
+            </a>
+            <p>Product Designer (Figma)</p>
+            <p>2015 - 2017</p>
+          </div>
+          <div>
+            <a href="#" class="accentColor bold">My-Backyard
+              <img src="images/linkIcon.svg" class="icon"></img>
+            </a>
+            <p>Web Development (React.js)</p>
+            <p>2013 - 2015</p>
+          </div>
+        </div>
+        <a href="#" class="accentColor bold resume">View Resume<img src="images/linkIcon.svg" class="icon"></img></a>
+      </section>
+    </div>
+    <div class='container portfolio-section'>
+      <section >
+        <h2>Portfolio</h2>
+        <div class='grid3'>
+          <a href="https://www.behance.net/Adigun007">
+              <div class="portfolio-image backgroundFix" style='background-image: url(images/rise.png)'>
+              </div>
+              <h3 class="bold">Rise Ecommerce Web-App</h3>
+              <p>
+                Rísé offers the best set of artisans and vendors that users require to meet their day to day needs as well as 
+                give the MSMEs an effective platform to increase their sales and consumer reach
+              </p>
+            </a>
+          <a href="https://www.behance.net/Adigun007">
+              <div class="portfolio-image backgroundFix" style='background-image: url(images/trendCred.png)'>
+                
+              </div>
+              <h3 class="bold">TrendCred Fashion Ecommerce</h3>
+              <p>
+                A modern web application to meet the style demands of the trendy GenZ.
+              </p>
+            </a>
+          <a href="https://www.behance.net/Adigun007">
+              <div class="portfolio-image backgroundFix" style='background-image: url(images/klasha.png)'>
+                
+              </div>
+              <h3 class="bold">Klasha Authentication </h3>
+              <p>
+                Redesigning and implementing a payment platform authentication pages
+              </p>
+            </a>
+          <a href="https://www.behance.net/Adigun007">
+              <div class="portfolio-image backgroundFix" style='background-image: url(images/learning-platform.png)'>
+                
+              </div>
+              <h3 class="bold">Socio-learning Platform</h3>
+              <p>
+                A learning space for socially inclined individuals to learn and share ideas, resources and interact.
+              </p>
+            </a>
+        </div>
+      </section>
+    </div>
+    <footer class='padChild topHeader'>
+      <div class='flex-space-btw'>
+        <a class="centered logo">Lucius<img src="images/icon.svg" class="icon"></img></a>
+        <a href='mailto:lucius.emmanuel.e@gmail.com' class='centered'>lucius.emmanuel.e@gmail.com <img src='images/linkIcon.svg' class='icon'></img></a>
+      </div>
+    </footer>
+  </body>
 </html>
