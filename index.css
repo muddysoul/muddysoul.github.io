@@ -35,26 +35,28 @@
   }
 
   /* sprites */
-  .bg-doc_hover {
-    width: 50px; height: 50px;
-    background: url('css_sprites.png') -0 -0;
+  .sprite {
+    background: url('images/sprite.png') no-repeat top left;
+    background-size: 48%;
+    width: 25px;
+    height: 25px;
+    margin: 0px 3px;
+  }  
+  .sprite.doc {
+    background-position: -26px 0;
+  }   
+  .hover:hover .sprite.doc {
+    background-position: 0 0;
   }
-  .bg-doc {
-    width: 50px; height: 50px;
-    background: url('css_sprites.png') -50px -0;
+  .sprite.ruler {
+    background-position: -53px 0;
+  } 
+  .sprite.email {
+    background-position: -106px 0;
   }
-  .bg-email_hover {
-    width: 30px; height: 30px;
-    background: url('css_sprites.png') -50px -50px;
-  }
-  .bg-email {
-    width: 30px; height: 30px;
-    background: url('css_sprites.png') -100px -0;
-  }
-  .bg-ruler {
-    width: 50px; height: 50px;
-    background: url('css_sprites.png') -0 -50px;
-  }
+  .hover:hover .sprite.email {
+    background-position: -79px 0;
+  } 
   
   /* to apply colors */
   .accentColor {
@@ -191,16 +193,12 @@
   }
   
   /* experience section */
-  .resume {
+  .experience-section .resume {
     margin-top: 30px;
     justify-content: start;
   }
   .resume:hover {
     color: #14c752;
-  }
-  .experience-section {
-    margin-top: 30px;
-    display: block;
   }
   @media (max-width: 800px) {
     .experience-section .grid3 {
