@@ -37,25 +37,25 @@
   /* sprites */
   .sprite {
     background: url('images/sprite.png') no-repeat top left;
-    background-size: 48%;
+    background-size: 145px;
     width: 25px;
     height: 25px;
     margin: 0px 3px;
   }  
   .sprite.doc {
-    background-position: -26px 0;
+    background-position: -30px 0;
   }   
   .hover:hover .sprite.doc {
     background-position: 0 0;
   }
   .sprite.ruler {
-    background-position: -53px 0;
+    background-position: -120px 0;
   } 
   .sprite.email {
-    background-position: -106px 0;
+    background-position: -180px 0;
   }
   .hover:hover .sprite.email {
-    background-position: -79px 0;
+    background-position: -60px 0;
   } 
   
   /* to apply colors */
