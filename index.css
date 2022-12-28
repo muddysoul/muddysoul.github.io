@@ -37,7 +37,7 @@
   /* sprites */
   .sprite {
     background: url('images/sprite.png') no-repeat top left;
-    background-size: 145px;
+    background-size: 205px;
     width: 25px;
     height: 25px;
     margin: 0px 3px;
@@ -47,9 +47,6 @@
   }   
   .hover:hover .sprite.doc {
     background-position: 0 0;
-  }
-  .sprite.ruler {
-    background-position: -120px 0;
   } 
   .sprite.email {
     background-position: -90px 0;
@@ -57,6 +54,15 @@
   .hover:hover .sprite.email {
     background-position: -60px 0;
   } 
+  .sprite.linkedin {
+    background-position: -150px 0;
+  }
+  .hover:hover .sprite.linkedin {
+    background-position: -120px 0;
+  }
+  .sprite.ruler {
+    background-position: -180px 0;
+  }
   
   /* to apply colors */
   .accentColor {
