@@ -91,7 +91,7 @@
     background-repeat: no-repeat;
   }
 
-  .backgroundFix .aboutImg {
+  .aboutImg {
     background-size: cover;
     background-position: center left;
     background-repeat: no-repeat;
