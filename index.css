@@ -90,6 +90,12 @@
     background-position: bottom;
     background-repeat: no-repeat;
   }
+
+  .backgroundFix .aboutImg {
+    background-size: cover;
+    background-position: center left;
+    background-repeat: no-repeat;
+  }
   
   /* to create total separation between elements */
   .flex-space-btw {
@@ -176,13 +182,13 @@
   
   /* About Section */
   .aboutSection .aboutImg {
-    height: 350px;
-    width: 60%;
-    margin-left: auto;
+    height: 400px;
+    width: 90%;
     border-radius: 30px;
   }
   @media (max-width: 1000px) {
     .aboutSection .aboutImg {
+      height: 350px;
       width: 80%;
     }
     @media (max-width: 800px) {
