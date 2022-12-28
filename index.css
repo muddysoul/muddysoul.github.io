@@ -52,7 +52,7 @@
     background-position: -120px 0;
   } 
   .sprite.email {
-    background-position: -180px 0;
+    background-position: -90px 0;
   }
   .hover:hover .sprite.email {
     background-position: -60px 0;
@@ -163,6 +163,9 @@
   .topHeader .logo {
     font-size: 18px;
     font-weight: bold;
+  }
+  .mailto:hover {
+    color: #656565;
   }
   @media (max-width: 500px) {
     .topHeader .flex-space-btw {
